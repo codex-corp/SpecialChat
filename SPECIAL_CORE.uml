@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\SPECIAL_CORE</OriginalElement>
+  <nodes>
+    <node x="0.0" y="519.0">\SPECIAL_CORE</node>
+    <node x="82.0" y="0.0">\FUNCTIONS</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\SPECIAL_CORE" target="\FUNCTIONS">
+      <point x="0.0" y="-361.5" />
+      <point x="0.0" y="234.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5396196513470681" x="371.5" y="621.0" />
+  <SelectedNodes>
+    <node>\SPECIAL_CORE</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

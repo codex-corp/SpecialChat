@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="js/ajaxpagination.css" />
+<script type="text/javascript" src="js/ajaxpagination.js">
+
+</script>
+
+<SCRIPT language=javascript type=text/javascript>
+
+var message="Dont use right click, focus on the smilies (only!)";
+
+<!--
+function emoticossn(text) {
+	text = ' ' + text + ' ';
+	if (opener.document.forms['0'].message.createTextRange && opener.document.forms['0'].message.caretPos) {
+		var caretPos = opener.document.forms['0'].message.caretPos;
+		caretPos.text = caretPos.text.charAt(caretPos.text.length - 1) == ' ' ? text + ' ' : text;
+		opener.document.forms['0'].message.focus();
+	} else {
+	opener.document.forms['0'].message.value  += text;
+	opener.document.forms['0'].message.focus();
+	}
+}
+
+function emoticon(smiley) {
+	window.opener.document.getElementById("message").value = window.opener.document.getElementById("message").value + smiley;
+}
+
+function click(e) {
+if (document.all) {
+if (event.button == 2) {
+alert(message);
+return false;
+
+}
+
+}
+if (document.layers) {
+if (e.which == 3) {
+alert(message);
+return false;
+
+}
+
+}
+
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+
+}
+document.onmousedown=click;
+
+</SCRIPT>
+
+<style type="text/css">
+  a:link{ color : #FF9900; text-decoration : none; }
+ a:visited{ color : #FF6600; text-decoration : none; }
+ a:active{ color : #FFCC66; text-decoration : none; }
+ a:hover{ color : #FF9900; text-decoration : underline; }
+</style>
+</head>
+
+<body>
+
+<div id="paginate-top"> </div>
+<div id="pcontent"> </div>
+<div id="paginate-bottom"> </div>
+
+<script type="text/javascript">
+
+var myajaxbook={} //arbitrary variable to hold page settings for this book
+myajaxbook.page=["./smilies1.htm", "./smilies2.htm", "./smilies3.htm", "./smilies4.htm", "./smilies5.htm"]
+myajaxbook.selectedpage=0 //set page shown by default (0=1st page)
+
+var mypages=new ajaxpageclass.bindpages(myajaxbook, "pcontent", ["paginate-top", "paginate-bottom"])
+
+</script>
+    
+    <DIV align=center>
+    <font size="1" face="Verdana" color="#000000">Copyright © 2004-2008 Special<span lang="en-us">Chat </span>! Inc All rights reserved Copyright Policy</font>
+    </DIV>
+    
+    <div align="center"><font face="Verdana" size="2"><BR></font><p><span class="genmed"><a href="javascript:window.close();"><font color="#444444" face="Verdana" size="1">Close Window</font></a></span></p></div>
+    
+
+</body>
+
+</html>

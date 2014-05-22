@@ -1,0 +1,23 @@
+/**** global style elements ****/
+BODY{margin: 0px 0px 0px 0px; padding : 0px 0px 0px 0px; font-family: Palatino Linotype;}
+TABLE{border: 0px; padding: 0px 0px 0px 0px;}
+/** TD{line-height: 15px;} **/
+P{color: #000; font-family: Tahoma; font-size: 11px;}
+IMG{border-collapse : collapse; border : 0px; }
+A{ text-decoration:none; }
+TEXTAREA {
+width:50%;
+height:100%;
+font-size:8pt;
+font-family:tahoma;
+}
+
+/**** global custom styles ****/
+.h1{ padding-left: 1px; font-size:1px; line-height:1px; }
+.h3{ padding-left: 3px; font-size:1px; line-height:1px; }
+.h5{ padding-left: 4px; font-size:1px; line-height:1px; }
+.hidden{display: none;}
+.linked{cursor:pointer; cursor:hand;}
+TD {padding: 0px 0px 0px 0px; }
+
+INPUT {font-size: 12px; font-family:Tahoma;}
